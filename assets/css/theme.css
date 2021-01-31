@@ -16521,6 +16521,11 @@ button:focus {
   background-color: #21325b;
 }
 
+.avatar-green {
+  color: #fff;
+  background-color: #025710;
+}
+
 /* primary soft */
 .avatar-soft-primary {
   color: #28a745;
