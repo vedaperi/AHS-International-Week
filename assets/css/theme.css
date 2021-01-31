@@ -12272,6 +12272,12 @@ button.bg-navy:focus {
   text-align: center !important;
 }
 
+.text-primary-larger {
+  color: #1e2022 !important;
+  font-size: 75px;
+  text-align: center !important;
+}
+
 a.text-primary:hover, a.text-primary:focus {
   color: #0052ea !important;
 }
