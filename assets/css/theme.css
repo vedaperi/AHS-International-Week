@@ -22440,6 +22440,10 @@ label.btn {
   background-color: rgba(247, 250, 255, 0.1);
 }
 
+.bg-soft-white {
+  background-color: rgba(247, 250, 255, 0.3);
+}
+
 .bg-soft-dark {
   background-color: rgba(30, 32, 34, 0.1);
 }
