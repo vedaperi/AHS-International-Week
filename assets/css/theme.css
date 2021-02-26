@@ -17971,6 +17971,14 @@ label.btn {
   background-color: #f4f7fc;
 }
 
+.card-bg-navy {
+  background-color: #21325b;
+}
+
+.card-bg-navy:hover {
+  background-color: #21325b;
+}
+
 /* Frame */
 .card-frame {
   border: 0.0625rem solid #e7eaf3;
