@@ -2901,34 +2901,40 @@ fieldset:disabled a.btn {
   border-color: #f7faff;
 }
 
-.btn-light:hover {
+.btn-gray {
+  color: #1e2022;
+  background-color: rgba(150, 150, 150, 0.3);
+  border-color: rgba(150, 150, 150, 0.3);
+}
+
+.btn-gray:hover {
   color: #1e2022;
   background-color: #d1e2ff;
   border-color: #c4daff;
 }
 
-.btn-light:focus, .btn-light.focus {
+.btn-gray:focus, .btn-gray.focus {
   color: #1e2022;
   background-color: #d1e2ff;
   border-color: #c4daff;
   box-shadow: 0 0 0 0.2rem rgba(214, 217, 222, 0.5);
 }
 
-.btn-light.disabled, .btn-light:disabled {
+.btn-gray.disabled, .btn-gray:disabled {
   color: #1e2022;
-  background-color: #f7faff;
-  border-color: #f7faff;
+  background-color: rgba(150, 150, 150, 0.3);
+  border-color: rgba(150, 150, 150, 0.3);
 }
 
-.btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
+.btn-gray:not(:disabled):not(.disabled):active, .btn-gray:not(:disabled):not(.disabled).active,
 .show > .btn-light.dropdown-toggle {
   color: #1e2022;
   background-color: #c4daff;
   border-color: #b7d2ff;
 }
 
-.btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus,
-.show > .btn-light.dropdown-toggle:focus {
+.btn-gray:not(:disabled):not(.disabled):active:focus, .btn-gray:not(:disabled):not(.disabled).active:focus,
+.show > .btn-gray.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(214, 217, 222, 0.5);
 }
 
@@ -16727,6 +16733,23 @@ a.badge-soft-navy:hover, a.badge-soft-navy:focus {
   color: #677788;
   background-color: rgba(231, 234, 243, 0.5);
 }
+
+.btn-gray {
+  font-weight: 400;
+  background-color: rgba(150, 150, 150, 0,3);
+  border-color: #e7eaf3;
+}
+
+.btn-gray:hover, .btn-gray:focus, .btn-gray.focus, .btn-gray:active, .btn-gray.active {
+  color: #0052ea;
+  box-shadow: 0px 3px 6px -2px rgba(140, 152, 164, 0.25);
+}
+
+.btn-gray.disabled, .btn-gray:disabled {
+  color: #677788;
+  background-color: rgba(231, 234, 243, 0.5);
+}
+
 
 /* primary button :hover, :focus, :active effects */
 .btn-primary[href]:hover, .btn-primary[href]:focus, .btn-primary[href]:active, .btn-primary[type]:hover, .btn-primary[type]:focus, .btn-primary[type]:active {
