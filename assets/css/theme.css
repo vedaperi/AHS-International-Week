@@ -22820,8 +22820,14 @@ label.btn {
   .vh-md-70 {
     height: 70vh;
   }
+  .vh-md-100 {
+    height: 100vh;
+  }
   .min-vh-md-100 {
     min-height: 100vh;
+  }
+  .min-vh-md-150 {
+    min-height: 150vh;
   }
   .max-w-md-13rem {
     max-width: 6rem;
